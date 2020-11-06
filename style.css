@@ -1,0 +1,93 @@
+section {
+    font-size: 10px;
+}
+
+p,
+h1 {
+    font-size: 20px;
+}
+
+main p {
+    color: blue;
+}
+
+section>p {
+    /*quiere decir hijo directo,no nieto*/
+    color: red;
+}
+
+h1+p {
+    /*afecta solo al primer parrafo*/
+    color: yellow;
+}
+
+h1~p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2~p {
+    color: brown;
+}
+
+#parrafo3 {
+    /*seleccion id*/
+    color: violet;
+}
+
+.parrafo_rosa {
+    /*selecciona class*/
+    color: pink;
+}
+
+.tamaño_parrafo {
+    font-size: 80px;
+}
+
+h2.Mitexto {
+    /*solo para el elemento en especifico que tenga este nmbre*/
+    color: grey;
+}
+
+p[name="frase4"] {
+    /*identifica nombre*/
+    color: olivedrab;
+}
+
+
+/*nombre que se llama igual
+p[name~="mi"] { 
+   font-size: 100px;
+}*/
+
+
+/*empiece en mi
+p[name]^="mi"] {
+    font-size: 8px;
+}*/
+
+
+/*termine en mi
+p[name$="mi"] { 
+    font-size: 100px;
+}*/
+
+
+/*tiene la letra mi en cualquier lado
+p[name*="mi"] {
+    font-size: 8px;
+}*/
+
+li:nth-child(2) {
+    /*poner el numero de element*/
+    font-size: 30px;
+}
+
+li:first-child {
+    /*pone el primero de cualquier diseño q tenga forma de lista*/
+    color: orange;
+}
+
+
+/*p:first-child {
+    color: red;
+}*/

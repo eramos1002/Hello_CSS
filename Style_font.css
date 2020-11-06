@@ -1,0 +1,19 @@
+h1 {
+    font-family: Arial;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-weight: bold;
+}
+
+.parrafo2 {
+    font-style: italic;
+}
+
+.parrafo3 {
+    font: 26px verdana, italic;
+}
